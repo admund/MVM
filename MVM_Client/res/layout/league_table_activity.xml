@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    		android:id="@+id/league_table_activity_layout_root"
+		    android:orientation="vertical"
+		    android:layout_width="fill_parent"
+		    android:layout_height="fill_parent"
+		    android:keepScreenOn="true">
+		    
+	    <include android:id="@+id/legend_row" layout="@layout/league_table_row" />
+	    
+	    <ListView android:id="@+id/league_table_activity_list"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"> 
+	    </ListView>
+	     
+</LinearLayout>

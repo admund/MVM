@@ -1,0 +1,138 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    		android:id="@+id/volleyballer_info_activity_layout_root"
+		    android:orientation="horizontal"
+		    android:layout_width="fill_parent"
+		    android:layout_height="fill_parent"
+		    android:keepScreenOn="true">
+			    
+	    <LinearLayout android:id="@+id/volleyballer_info_activity_layout_info"
+			    android:orientation="vertical"
+			    android:layout_width="wrap_content"
+			    android:layout_height="fill_parent"
+			    >
+			    <ImageView android:id="@+id/volleyballer_info_activity_image_foto"
+			        	android:layout_width="wrap_content"
+			        	android:layout_height="wrap_content"
+			        	android:background="@drawable/vm_ziomo_foto"
+			        	/>
+			    <TextView android:id="@+id/volleyballer_info_text_name"
+			        	android:maxWidth="130dp"
+			        	android:singleLine="true"
+			        	android:layout_width="wrap_content"
+			        	android:layout_height="wrap_content"/>
+			    <TextView android:id="@+id/volleyballer_info_text_height"
+			        	android:layout_width="wrap_content"
+			        	android:layout_height="wrap_content"/>
+			    <TextView android:id="@+id/volleyballer_info_text_weight"
+			        	android:layout_width="wrap_content"
+			        	android:layout_height="wrap_content"/>
+			    <TextView android:id="@+id/volleyballer_info_text_age"
+			        	android:layout_width="wrap_content"
+			        	android:layout_height="wrap_content"/>
+			 	<TextView android:id="@+id/volleyballer_info_text_nationality"
+			 	    	android:maxWidth="130dp"
+			        	android:singleLine="true"
+			        	android:layout_width="wrap_content"
+			        	android:layout_height="wrap_content"/>
+			 	<TextView android:id="@+id/volleyballer_info_text_trim"
+			        	android:layout_width="wrap_content"
+			        	android:layout_height="wrap_content"/>
+			 	<TextView android:id="@+id/volleyballer_info_text_position"
+			        	android:layout_width="wrap_content"
+			        	android:layout_height="wrap_content"/>
+			 	<TextView android:id="@+id/volleyballer_info_text_morale"
+			        	android:layout_width="wrap_content"
+			        	android:layout_height="wrap_content"/>
+			 	<TextView android:id="@+id/volleyballer_info_text_salary"
+			        	android:layout_width="wrap_content"
+			        	android:layout_height="wrap_content"/>
+			 	<TextView android:id="@+id/volleyballer_info_text_contract"
+			        	android:layout_width="wrap_content"
+			        	android:layout_height="wrap_content"/>
+					
+		</LinearLayout>
+		
+    	<LinearLayout android:id="@+id/volleyballer_info_activity_layout_tech"
+		    android:orientation="vertical"
+		    android:layout_width="wrap_content"
+		    android:layout_height="fill_parent"
+		    >
+		    <TextView android:id="@+id/volleyballer_info_text_attack"
+		        	android:layout_width="wrap_content"
+		        	android:layout_height="wrap_content"/>
+		    <TextView android:id="@+id/volleyballer_info_text_block"
+		        	android:layout_width="wrap_content"
+		        	android:layout_height="wrap_content"/>
+		    <TextView android:id="@+id/volleyballer_info_text_reception"
+		        	android:layout_width="wrap_content"
+		        	android:layout_height="wrap_content"/>
+		    <TextView android:id="@+id/volleyballer_info_text_rozegranie"
+		        	android:layout_width="wrap_content"
+		        	android:layout_height="wrap_content"/>
+		 	<TextView android:id="@+id/volleyballer_info_text_serwis"
+		        	android:layout_width="wrap_content"
+		        	android:layout_height="wrap_content"/>
+		 	<TextView android:id="@+id/volleyballer_info_text_technique"
+		        	android:layout_width="wrap_content"
+		        	android:layout_height="wrap_content"/>
+		 	<ImageView android:id="@+id/volleyballer_info_rating_tech"
+		        	android:layout_width="wrap_content"
+		        	android:layout_height="wrap_content" />
+		</LinearLayout>
+		
+    	<LinearLayout android:id="@+id/volleyballer_info_activity_layout_psychical"
+		    android:orientation="vertical"
+		    android:layout_width="wrap_content"
+		    android:layout_height="fill_parent"
+		    >
+		    <TextView android:id="@+id/volleyballer_info_text_temper"
+		        	android:layout_width="wrap_content"
+		        	android:layout_height="wrap_content"/>
+		    <TextView android:id="@+id/volleyballer_info_text_ustawianie"
+		        	android:layout_width="wrap_content"
+		        	android:layout_height="wrap_content"/>
+		    <TextView android:id="@+id/volleyballer_info_text_intuition"
+		        	android:layout_width="wrap_content"
+		        	android:layout_height="wrap_content"/>
+		    <TextView android:id="@+id/volleyballer_info_text_creativity"
+		        	android:layout_width="wrap_content"
+		        	android:layout_height="wrap_content"/>
+		 	<TextView android:id="@+id/volleyballer_info_text_walecznosc"
+		        	android:layout_width="wrap_content"
+		        	android:layout_height="wrap_content"/>
+		 	<TextView android:id="@+id/volleyballer_info_text_charisma"
+		        	android:layout_width="wrap_content"
+		        	android:layout_height="wrap_content"/>
+		 	<ImageView android:id="@+id/volleyballer_info_rating_psychical"
+		        	android:layout_width="wrap_content"
+		        	android:layout_height="wrap_content" />
+		</LinearLayout>
+		
+    	<LinearLayout android:id="@+id/volleyballer_info_activity_layout_physical"
+		    android:orientation="vertical"
+		    android:layout_width="wrap_content"
+		    android:layout_height="fill_parent"
+		    >
+		    <TextView android:id="@+id/volleyballer_info_text_strenght"
+		        	android:layout_width="wrap_content"
+		        	android:layout_height="wrap_content"/>
+		    <TextView android:id="@+id/volleyballer_info_text_jumping"
+		        	android:layout_width="wrap_content"
+		        	android:layout_height="wrap_content"/>
+		    <TextView android:id="@+id/volleyballer_info_text_reflex"
+		        	android:layout_width="wrap_content"
+		        	android:layout_height="wrap_content"/>
+		    <TextView android:id="@+id/volleyballer_info_text_quickness"
+		        	android:layout_width="wrap_content"
+		        	android:layout_height="wrap_content"/>
+		 	<TextView android:id="@+id/volleyballer_info_text_agility"
+		        	android:layout_width="wrap_content"
+		        	android:layout_height="wrap_content"/>
+		 	<TextView android:id="@+id/volleyballer_info_text_stamina"
+		        	android:layout_width="wrap_content"
+		        	android:layout_height="wrap_content"/>
+		 	<ImageView android:id="@+id/volleyballer_info_rating_physical"
+		        	android:layout_width="wrap_content"
+		        	android:layout_height="wrap_content" />
+		</LinearLayout>
+</LinearLayout>

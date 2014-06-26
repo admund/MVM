@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/message_row_layout_root"
+              android:orientation="horizontal"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:gravity="center_vertical"
+              >
+         
+    <!-- 
+      <LinearLayout android:id="@+id/message_row_layout_btn"
+	    	android:orientation="horizontal"
+	    	android:layout_width="fill_parent"
+	    	android:layout_height="wrap_content"
+	    	android:gravity="right"> 
+	    	
+		<Button android:id="@+id/message_row_reply_button"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_marginLeft="5dp"
+				android:text="REPLAY"
+				/>
+	 -->	
+		<Button android:id="@+id/message_row_delete_button"
+				android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_marginLeft="5dp"
+		        android:text="USUŃ"
+		        />
+		
+	<!--  </LinearLayout> -->
+    
+    <TextView android:id="@+id/message_row_date_text"
+      		android:layout_width="wrap_content"
+      		android:layout_height="wrap_content"
+      		android:textColor="#ffc8c8c8"
+      		/>
+      
+     <TextView android:id="@+id/message_row_sender_text"
+      		android:layout_width="wrap_content"
+      		android:layout_height="wrap_content"
+      		android:layout_marginLeft="10dp"
+      		android:textColor="#ffc8c8c8"
+	   		/>
+     
+    <TextView android:id="@+id/message_row_msg_text"
+      		android:layout_width="230dp"
+      		android:layout_height="wrap_content"
+      		android:layout_marginLeft="10dp"
+      		android:ellipsize="end"
+      		android:scrollHorizontally="true"
+      		android:lines="1"
+      		android:textColor="#ffffffff"
+	   		/>
+</LinearLayout>

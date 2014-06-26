@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="NoTitleDialog" parent="@android:style/Theme.Dialog">
+    	<item name="android:windowNoTitle">true</item>
+    	<!--
+   		<item name="android:windowBackground">@drawable/wait_login</item>
+        <item name="android:windowAnimationStyle">@style/WaitDialogAnimation</item>
+        <item name="android:indeterminateDrawable">@drawable/wait_anim</item>
+        -->
+    </style>
+
+    <style name="LoginWaitDialog" parent="@android:style/Theme.Dialog">
+    	<item name="android:windowNoTitle">true</item>
+    	<!--
+   		<item name="android:windowBackground">@drawable/wait_login</item>
+        <item name="android:windowAnimationStyle">@style/WaitDialogAnimation</item>
+        <item name="android:indeterminateDrawable">@drawable/wait_anim</item>
+        -->
+    </style>
+
+<!--
+    <style name="WaitDialogAnimation">
+        <item name="android:windowEnterAnimation">@anim/anim_wait_dialog</item>
+    </style>
+	
+    <style name="NickDialog" parent="@android:style/Theme.Dialog">
+      <item name="android:windowNoTitle">true</item>
+      <item name="android:windowBackground">@drawable/dlg_nick</item>
+	</style>
+-->
+</resources>

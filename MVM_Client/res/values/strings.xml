@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+				<!-- STRINGS EN -->
+				
+<resources>
+    <string name="app_name">VolleyBall Manager</string>
+    
+	<!--			WELCOM MENU			-->
+	<string name="welcome_text">Welcome Guest\nYou have to sign in!</string>
+    <string name="play_btn_text">PLAY</string>
+    <string name="credits_btn_text">CREDITS</string>
+    <string name="login_btn_text">LOGIN</string>
+    
+    <!--			LOGIN DIALOG			-->
+    <string name="login_text">Email:</string>
+    <string name="pass_text">Password:</string>
+    <string name="ok_text">OK</string>
+    <string name="cancel_text">Cancel</string>
+   
+    <!--			WAIT DIALOG			-->
+    <string name="wait_login">Login in progress...</string>
+    <string name="wait_register">Register in progress...</string>
+    <string name="wait_get_msg">Download messages...</string>
+    
+    
+</resources>

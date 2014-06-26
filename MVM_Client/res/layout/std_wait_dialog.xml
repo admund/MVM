@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/std_wait_dialog_layout_root"
+              android:orientation="horizontal"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:gravity="center_vertical"
+              android:padding="15dp">
+              
+    <ProgressBar android:id="@+id/std_wait_dialog_progress_bar"
+        	android:layout_width="50dp"
+        	android:layout_height="50dp"
+        	android:indeterminate="true"
+        	android:indeterminateOnly="true">
+    </ProgressBar>
+    
+    <TextView android:id="@+id/std_wait_dialog_text"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:gravity="center"/>
+
+</LinearLayout>

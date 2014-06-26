@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    		android:id="@+id/tactic_set_layout_root"
+    		android:layout_width="match_parent"
+    		android:layout_height="match_parent" 
+    		android:orientation="vertical">
+    		
+    <LinearLayout android:layout_width="match_parent"
+	    		android:layout_height="wrap_content" 
+	    		android:orientation="horizontal">
+        
+        <TextView android:id="@+id/tactic_layout_left_btn"
+	            android:layout_width="wrap_content"
+	    		android:layout_height="wrap_content" 
+	    		android:minWidth="150dp"
+	    		android:text="ZAWODNIK"/>
+        
+        <TextView android:id="@+id/tactic_layout_title_text"
+	            android:layout_width="wrap_content"
+	    		android:layout_height="wrap_content" 
+	    		android:minWidth="150dp"
+	    		android:text="Rozegranie styl: "/>
+        
+        <TextView android:id="@+id/tactic_layout_right_btn"
+	            android:layout_width="wrap_content"
+	    		android:layout_height="wrap_content" 
+	    		android:minWidth="150dp"
+	    		android:text="Rozegranie preferencja: "/>
+    </LinearLayout>
+    
+    <LinearLayout android:layout_width="match_parent"
+        		android:layout_height="wrap_content"
+        		android:orientation="horizontal"
+        		android:layout_marginBottom="50dp">
+        
+        <TextView android:layout_width="wrap_content"
+        		android:layout_height="wrap_content"
+        		android:orientation="horizontal"
+        		android:text="Druzyna: "
+        		android:minWidth="150dp"/>
+        
+        <Spinner android:id="@+id/spinner_team_set_com"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:minWidth="150dp"
+            android:entries="@array/roz_styl"/>
+        
+        <Spinner android:id="@+id/spinner_team_set_pref"
+            android:layout_height="wrap_content" 
+            android:layout_width="wrap_content"
+            android:minWidth="150dp"
+			android:entries="@array/roz_pref"/>
+        
+    </LinearLayout>
+    
+    <LinearLayout android:layout_width="match_parent"
+        		android:layout_height="wrap_content"
+        		android:orientation="horizontal">
+        
+        <TextView android:layout_width="wrap_content"
+        		android:layout_height="wrap_content"
+        		android:orientation="horizontal"
+        		android:text="Przyjmujacy 1: "
+        		android:minWidth="150dp"/>
+        
+        <Spinner android:id="@+id/spinner_set_set_com"
+            android:layout_height="wrap_content" 
+            android:layout_width="wrap_content"
+            android:minWidth="150dp"
+            android:entries="@array/roz_styl"/>
+        
+        <Spinner android:id="@+id/spinner_set_set_pref"
+            android:layout_height="wrap_content" 
+            android:layout_width="wrap_content"
+            android:minWidth="150dp"
+            android:entries="@array/roz_pref"/>
+        
+        <Button android:id="@+id/tactic_set_set_profile_btn"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="PROFIL"/>
+        
+    </LinearLayout>
+
+</LinearLayout>

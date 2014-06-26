@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		    android:orientation="vertical"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:padding="15dp">
+	
+	<LinearLayout 
+	    	android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:orientation="horizontal">
+			
+		<TextView 
+		    android:layout_width="100dp"
+			android:layout_height="wrap_content"
+			android:text="Podaj mail:"/>
+		
+		<EditText 
+		    android:id="@+id/register_dialog_mail_edit" 
+			android:layout_width="200dp"
+			android:layout_height="wrap_content"
+			android:inputType="textEmailAddress"/>
+		
+	</LinearLayout>
+	
+    <LinearLayout 
+        	android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:orientation="horizontal">
+		
+		<TextView 
+		    android:text="@string/pass_text"
+			android:layout_width="100dp"
+			android:layout_height="wrap_content"/>
+		
+		<EditText 	
+			android:id="@+id/register_dialog_pass_edit" 
+			android:layout_width="200dp"
+			android:layout_height="wrap_content"
+			android:inputType="textPassword"/>
+	
+	</LinearLayout>
+	
+	<LinearLayout android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:orientation="horizontal">
+		
+		<TextView 
+		    android:text="Powtorz haslo:"
+			android:layout_width="100dp"
+			android:layout_height="wrap_content"/>
+		
+		<EditText 
+		    android:id="@+id/register_dialog_pass_repeat_edit" 
+			android:layout_width="200dp"
+			android:layout_height="wrap_content"
+			android:inputType="textPassword"/>
+		
+	</LinearLayout>
+	
+	<LinearLayout android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:orientation="horizontal">
+			
+		<TextView 
+			android:text="Podaj nick:"
+			android:layout_width="100dp"
+			android:layout_height="wrap_content"/>
+		
+		<EditText 
+			android:id="@+id/register_dialog_login_edit"
+			android:layout_width="200dp"
+			android:layout_height="wrap_content"
+			android:inputType="text"/>
+		
+	</LinearLayout>
+	
+	<LinearLayout
+    	android:orientation="horizontal"
+    	android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:gravity="center_horizontal">
+    	
+		<Button 
+			android:id="@+id/register_dialog_ok_btn"
+			android:text="@string/ok_text"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"/>
+			
+		<Button 
+			android:id="@+id/register_dialog_cancel_btn"
+			android:text="@string/cancel_text"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"/>
+			
+	</LinearLayout>
+	
+</LinearLayout>

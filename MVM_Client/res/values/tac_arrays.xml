@@ -1,0 +1,76 @@
+<resources>
+    <string-array name="atak_sila">
+    	<item>Domyslny</item>
+        <item>Mocny</item>
+        <item>Sredni</item>
+        <item>Lekki</item>
+    </string-array>
+
+    <string-array name="atak_kierunek">
+    	<item>Domyslny</item>
+        <item>Po prostej</item>
+        <item>Skos</item>
+        <!-- <item>Ostry skos</item> -->
+        <item>Kiwka</item>
+    </string-array>    
+
+    <string-array name="serwis_sila">
+    	<item>Domyslny</item>
+        <item>Mocny</item>
+        <item>Sredni</item>
+        <item>Lekki</item>
+    </string-array>
+    
+    <string-array name="serwis_kierunek">
+    	<item>Domyslny</item>
+    	<item>Przyjmujacy1</item>
+        <item>Przyjmujacy2</item>
+        <item>Libero</item>
+        <item>Do lini</item>
+        <item>Miedzy dwoch</item>
+        <item>Skrot</item>
+        <item>Bomba</item>
+    </string-array>
+    
+    <string-array name="przyjecie_jakosc">
+    	<item>Domyslny</item>
+    	<item>Dokladnie</item>
+        <item>Do gory</item>
+    </string-array>
+    
+    <string-array name="przyjecie_obszar">
+    	<item>Domyslny</item>
+        <item>Wiecej</item>
+        <item>Mniej</item>
+    </string-array>
+    
+    <string-array name="blok_trzech">
+    	<item>Domyslny</item>
+        <item>Tak</item>
+        <item>Nie</item>
+    </string-array>    
+    
+    <string-array name="blok_opcja">
+    	<item>Domyslny</item>
+        <item>Prosta</item>
+        <item>Skos</item>
+        <item>Srodek</item>
+        <item>Intuicja</item>
+    </string-array>
+    
+    <string-array name="roz_styl">
+    	<item>Domyslny</item>
+        <item>Prosty</item>
+        <item>Kombinacyjny</item>
+    </string-array>
+    
+   <string-array name="roz_pref">
+    	<item>Domyslny</item>
+        <item>Przyjmujacy1</item>
+        <item>Przyjmujacy2</item>
+        <item>Srodkowy</item>
+        <item>Atakujacy</item>
+        <item>Druga linia</item>
+    </string-array>
+    
+</resources>

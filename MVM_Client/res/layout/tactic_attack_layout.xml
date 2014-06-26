@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    		android:id="@+id/tactic_attack_layout_root"
+    		android:layout_width="match_parent"
+    		android:layout_height="match_parent" 
+    		android:orientation="vertical">
+    	
+    <LinearLayout android:layout_width="match_parent"
+    		android:layout_height="wrap_content" 
+    		android:orientation="horizontal">
+        
+        <TextView android:id="@+id/tactic_layout_left_btn"
+            android:layout_width="wrap_content"
+    		android:layout_height="wrap_content" 
+    		android:minWidth="150dp"
+    		android:text="ZAWODNIK"/>
+        
+        <TextView android:id="@+id/tactic_layout_title_text"
+            android:layout_width="wrap_content"
+    		android:layout_height="wrap_content" 
+    		android:minWidth="150dp"
+    		android:text="Atak sila: "/>
+        
+        <TextView android:id="@+id/tactic_layout_right_btn"
+            android:layout_width="wrap_content"
+    		android:layout_height="wrap_content" 
+    		android:minWidth="150dp"
+    		android:text="Atak kierunek: "/> 
+    </LinearLayout>
+    
+    <LinearLayout android:layout_width="match_parent"
+        		android:layout_height="wrap_content"
+        		android:orientation="horizontal"
+        		android:layout_marginBottom="50dp">
+        
+        <TextView android:layout_width="wrap_content"
+        		android:layout_height="wrap_content"
+        		android:orientation="horizontal"
+        		android:minWidth="150dp"
+        		android:text="Druzyna: "/>
+        
+        <Spinner android:id="@+id/spinner_team_attack_str"
+            android:layout_height="wrap_content" 
+            android:layout_width="wrap_content"
+            android:minWidth="150dp"
+            android:entries="@array/atak_sila"/>
+        
+        <Spinner android:id="@+id/spinner_team_attack_dir"
+            android:layout_height="wrap_content" 
+            android:layout_width="wrap_content"
+            android:minWidth="150dp"
+            android:entries="@array/atak_kierunek"/>
+    
+    </LinearLayout>
+    
+    <LinearLayout android:layout_width="match_parent"
+        		android:layout_height="wrap_content"
+        		android:orientation="horizontal">
+        
+        <TextView android:layout_width="wrap_content"
+        		android:layout_height="wrap_content"
+        		android:orientation="horizontal"
+        		android:text="Atakujacy: "
+        		android:minWidth="150dp"/>
+        
+        <Spinner android:id="@+id/spinner_att_attack_str"
+            android:layout_height="wrap_content" 
+            android:layout_width="wrap_content"
+            android:minWidth="150dp"
+            android:entries="@array/atak_sila"/>
+        
+        <Spinner android:id="@+id/spinner_att_attack_dir"
+            android:layout_height="wrap_content" 
+            android:layout_width="wrap_content"
+            android:minWidth="150dp"
+            android:entries="@array/atak_kierunek"/>
+        
+        <Button android:id="@+id/tactic_attack_att_profile_btn"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="PROFIL"/>
+        
+    </LinearLayout>
+    
+    <LinearLayout android:layout_width="match_parent"
+        		android:layout_height="wrap_content"
+        		android:orientation="horizontal">
+        
+        <TextView android:layout_width="wrap_content"
+        		android:layout_height="wrap_content"
+        		android:orientation="horizontal"
+        		android:text="Przyjmujacy 1: "
+        		android:minWidth="150dp"/>
+        
+        <Spinner android:id="@+id/spinner_rec1_attack_str"
+            android:layout_height="wrap_content" 
+            android:layout_width="wrap_content"
+            android:minWidth="150dp"
+            android:entries="@array/atak_sila"/>
+        
+        <Spinner android:id="@+id/spinner_rec1_attack_dir"
+            android:layout_height="wrap_content" 
+            android:layout_width="wrap_content"
+            android:minWidth="150dp"
+            android:entries="@array/atak_kierunek"/>
+        
+        <Button android:id="@+id/tactic_attack_rec1_profile_btn"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="PROFIL"/>
+        
+    </LinearLayout>
+    
+    <LinearLayout android:layout_width="match_parent"
+        		android:layout_height="wrap_content"
+        		android:orientation="horizontal">
+        
+        <TextView android:layout_width="wrap_content"
+        		android:layout_height="wrap_content"
+        		android:orientation="horizontal"
+        		android:text="Srodkowy 1: "
+        		android:minWidth="150dp"
+        		/>
+        
+        <Spinner android:id="@+id/spinner_blo1_attack_str"
+            android:layout_height="wrap_content" 
+            android:layout_width="wrap_content"
+            android:minWidth="150dp"
+            android:entries="@array/atak_sila"/>
+        
+        <Spinner android:id="@+id/spinner_blo1_attack_dir"
+            android:layout_height="wrap_content" 
+            android:layout_width="wrap_content"
+            android:minWidth="150dp"
+            android:entries="@array/atak_kierunek"/>
+        
+        <Button android:id="@+id/tactic_attack_blo1_profile_btn"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="PROFIL"/>
+        
+    </LinearLayout>
+    
+    <LinearLayout android:layout_width="match_parent"
+        		android:layout_height="wrap_content"
+        		android:orientation="horizontal">
+        
+        <TextView android:layout_width="wrap_content"
+        		android:layout_height="wrap_content"
+        		android:orientation="horizontal"
+        		android:text="Przyjmujacy 2: "
+        		android:minWidth="150dp"/>
+        
+        <Spinner android:id="@+id/spinner_rec2_attack_str"
+            android:layout_height="wrap_content" 
+            android:layout_width="wrap_content"
+            android:minWidth="150dp"
+            android:entries="@array/atak_sila"/>
+        
+        <Spinner android:id="@+id/spinner_rec2_attack_dir"
+            android:layout_height="wrap_content" 
+            android:layout_width="wrap_content"
+            android:minWidth="150dp"
+            android:entries="@array/atak_kierunek"/>
+        
+        <Button android:id="@+id/tactic_attack_rec2_profile_btn"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="PROFIL"/>
+        
+    </LinearLayout>
+    
+    <LinearLayout android:layout_width="match_parent"
+        		android:layout_height="wrap_content"
+        		android:orientation="horizontal">
+        
+        <TextView android:layout_width="wrap_content"
+        		android:layout_height="wrap_content"
+        		android:orientation="horizontal"
+        		android:text="Srodkowy 2: "
+        		android:minWidth="150dp"/>
+        
+        <Spinner android:id="@+id/spinner_blo2_attack_str"
+            android:layout_height="wrap_content" 
+            android:layout_width="wrap_content"
+            android:minWidth="150dp"
+            android:entries="@array/atak_sila"/>
+        
+        <Spinner android:id="@+id/spinner_blo2_attack_dir"
+            android:layout_height="wrap_content" 
+            android:layout_width="wrap_content"
+            android:minWidth="150dp"
+            android:entries="@array/atak_kierunek"/>
+        
+        <Button android:id="@+id/tactic_attack_blo2_profile_btn"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="PROFIL"/>
+        
+    </LinearLayout>
+    
+</LinearLayout>

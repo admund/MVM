@@ -1,0 +1,89 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    		android:id="@+id/league_table_row_layout_root"
+		    android:orientation="horizontal"
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+			> 
+    	
+    	<TextView android:id="@+id/league_table_row_text_pos"
+    	    	android:layout_width="28dp"
+		    	android:layout_height="fill_parent"
+		    	android:text="00"
+		    	/>
+    	
+    	<TextView android:id="@+id/league_table_row_text_name"
+    	    	android:layout_width="100dp"
+		    	android:layout_height="fill_parent"
+		    	android:layout_marginLeft="8dp"
+		    	/>
+    	
+		<TextView android:id="@+id/league_table_row_text_pkt"
+    	    	android:layout_width="28dp"
+		    	android:layout_height="fill_parent"
+		    	android:layout_marginLeft="8dp"
+		    	android:text="00"
+		    	/>
+		
+		<TextView android:id="@+id/league_table_row_text_match_cnt"
+    	    	android:layout_width="28dp"
+		    	android:layout_height="fill_parent"
+		    	android:layout_marginLeft="8dp"
+		    	android:text="00"
+		    	/>
+		
+		<TextView android:id="@+id/league_table_row_text_match_win"
+    	    	android:layout_width="28dp"
+		    	android:layout_height="fill_parent"
+		    	android:layout_marginLeft="8dp"
+		    	android:text="00"
+		    	/>
+				
+		<TextView android:id="@+id/league_table_row_text_match_loose"
+    	    	android:layout_width="28dp"
+		    	android:layout_height="fill_parent"
+		    	android:layout_marginLeft="8dp"
+		    	android:text="00"
+		    	/>
+		
+		<TextView android:id="@+id/league_table_row_text_set_win"
+    	    	android:layout_width="28dp"
+		    	android:layout_height="fill_parent"
+		    	android:layout_marginLeft="3dp"
+		    	android:text="000"
+		    	/>
+				
+		<TextView android:id="@+id/league_table_row_text_set_loose"
+    	    	android:layout_width="28dp"
+		    	android:layout_height="fill_parent"
+		    	android:layout_marginLeft="3dp"
+		    	android:text="000"
+		    	/>
+		
+		<TextView android:id="@+id/league_table_row_text_set_ratio"
+    	    	android:layout_width="55dp"
+		    	android:layout_height="fill_parent"
+		    	android:layout_marginLeft="3dp"
+		    	android:text="0,000"
+		    	/>
+		
+		<TextView android:id="@+id/league_table_row_text_little_win"
+    	    	android:layout_width="28dp"
+		    	android:layout_height="fill_parent"
+		    	android:layout_marginLeft="3dp"
+		    	android:text="0000"
+		    	/>
+				
+		<TextView android:id="@+id/league_table_row_text_little_loose"
+    	    	android:layout_width="28dp"
+		    	android:layout_height="fill_parent"
+		    	android:layout_marginLeft="3dp"
+		    	android:text="0000"
+		    	/>
+		
+		<TextView android:id="@+id/league_table_row_text_little_ratio"
+    	    	android:layout_width="55dp"
+		    	android:layout_height="fill_parent"
+		    	android:layout_marginLeft="3dp"
+		    	android:text="0,000"
+		    	/>
+</LinearLayout>

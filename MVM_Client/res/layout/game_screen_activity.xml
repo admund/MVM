@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    		android:id="@+id/game_screen_activity_layout_root"
+		    android:orientation="vertical"
+		    android:layout_width="fill_parent"
+		    android:layout_height="fill_parent"
+		    android:keepScreenOn="true">
+		    
+	<LinearLayout 
+    		android:id="@+id/game_screen_activity_layout_root"
+		    android:orientation="horizontal"
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:layout_marginTop="5dp"
+		    android:gravity="left"
+		    >
+		<Button 
+			android:id="@+id/game_screen_activity_msg_btn"
+			android:text="WIADOMOSCI"
+			android:layout_width="150dp"
+			android:layout_height="85dp"
+			android:layout_marginLeft="5dp"
+		/>
+			<Button 
+			android:id="@+id/game_screen_activity_player_btn"
+			android:text="PROFIL"
+			android:layout_width="150dp"
+			android:layout_height="85dp"
+			android:layout_marginLeft="5dp"
+		/>
+		
+		<Button 
+			android:id="@+id/game_screen_activity_team_btn"
+			android:text="DRUZYNA"
+			android:layout_width="150dp"
+			android:layout_height="85dp"
+			android:layout_marginLeft="5dp"
+		/>
+	</LinearLayout>
+	
+		<LinearLayout 
+    		android:id="@+id/game_screen_activity_layout_root"
+		    android:orientation="horizontal"
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:layout_marginTop="5dp"
+		    android:gravity="left"
+		    >
+		<Button 
+			android:id="@+id/game_screen_activity_table_btn"
+			android:text="TABELA"
+			android:layout_width="150dp"
+			android:layout_height="85dp"
+			android:layout_marginLeft="5dp"
+		/>
+			<Button 
+			android:id="@+id/game_screen_activity_stadium_btn"
+			android:text="STADION"
+			android:layout_width="150dp"
+			android:layout_height="85dp"
+			android:layout_marginLeft="5dp"
+		/>
+			
+		<Button 
+			android:id="@+id/game_screen_activity_play_match_btn"
+			android:text="GRAJ MECZ"
+			android:layout_width="150dp"
+			android:layout_height="85dp"
+			android:layout_marginLeft="5dp"
+		/>
+	</LinearLayout>
+	
+			<LinearLayout 
+    		android:id="@+id/game_screen_activity_layout_root"
+		    android:orientation="horizontal"
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:layout_marginTop="5dp"
+		    android:gravity="left"
+		    >
+		<Button 
+			android:id="@+id/game_screen_activity_tactic_btn"
+			android:text="TAKTYKA"
+			android:layout_width="150dp"
+			android:layout_height="85dp"
+			android:layout_marginLeft="5dp"
+		/>
+			<Button 
+			android:id="@+id/game_screen_activity_b8_btn"
+			android:text="b8 TODO"
+			android:layout_width="150dp"
+			android:layout_height="85dp"
+			android:layout_marginLeft="5dp"
+		/>
+			
+		<Button 
+			android:id="@+id/game_screen_activity_b9_btn"
+			android:text="b9 TODO"
+			android:layout_width="150dp"
+			android:layout_height="85dp"
+			android:layout_marginLeft="5dp"
+		/>
+	</LinearLayout>
+</LinearLayout>

@@ -1,0 +1,177 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    		android:id="@+id/change_volleyballer_activity_layout_root"
+		    android:orientation="horizontal"
+		    android:layout_width="fill_parent"
+		    android:layout_height="fill_parent"
+		    android:keepScreenOn="true">
+		    
+    	    <LinearLayout android:id="@+id/change_volleyballer_activity_layout_first"
+				    android:orientation="vertical"
+				    android:layout_width="wrap_content"
+				    android:layout_height="fill_parent">
+			    
+			    <TextView android:id="@+id/change_volleyballer_text_first_team"
+			        	android:layout_width="wrap_content"
+			        	android:layout_height="wrap_content"
+			        	android:text="Wyjściowa szóstka:"/>
+			    
+			    <TextView android:id="@+id/change_volleyballer_text_attacker"
+			        	android:layout_width="wrap_content"
+			        	android:layout_height="wrap_content"
+			        	android:text="Atakujacy:"/>
+			    <include
+			        android:id="@+id/change_volleyballer_attacker_row"
+			        layout="@layout/volleybaler_short_row" />
+			    
+			    <TextView android:id="@+id/change_volleyballer_text_reciver1"
+			        	android:layout_width="wrap_content"
+			        	android:layout_height="wrap_content"
+			        	android:text="Przyjmujacy 1:"/>
+			    <include
+			        android:id="@+id/change_volleyballer_reciver1_row"
+			        layout="@layout/volleybaler_short_row" />
+			    
+			    <TextView android:id="@+id/change_volleyballer_text_blocker1"
+			        	android:layout_width="wrap_content"
+			        	android:layout_height="wrap_content"
+			        	android:text="Srodkowy 1:"/>
+			    <include
+			        android:id="@+id/change_volleyballer_blocker1_row"
+			        layout="@layout/volleybaler_short_row" />
+			    
+			    <TextView android:id="@+id/change_volleyballer_text_setter"
+			        	android:layout_width="wrap_content"
+			        	android:layout_height="wrap_content"
+			        	android:text="Rozgrywajacy:"/>
+			    <include
+			        android:id="@+id/change_volleyballer_setter_row"
+			        layout="@layout/volleybaler_short_row" />
+			    
+			    <TextView android:id="@+id/change_volleyballer_text_reciver2"
+			        	android:layout_width="wrap_content"
+			        	android:layout_height="wrap_content"
+			        	android:text="Przyjmujacy 2:"/>
+			    <include
+			        android:id="@+id/change_volleyballer_reciver2_row"
+			        layout="@layout/volleybaler_short_row" />
+			    
+			    <TextView android:id="@+id/change_volleyballer_text_blocker2"
+			        	android:layout_width="wrap_content"
+			        	android:layout_height="wrap_content"
+			        	android:text="Srodkowy 2:"/>
+			    <include
+			        android:id="@+id/change_volleyballer_blocker2_row"
+			        layout="@layout/volleybaler_short_row" />
+			    
+			    <TextView android:id="@+id/change_volleyballer_text_libero"
+			        	android:layout_width="wrap_content"
+			        	android:layout_height="wrap_content"
+			        	android:text="Libero:"/>
+			    <include
+			        android:id="@+id/change_volleyballer_libero_row"
+			        layout="@layout/volleybaler_short_row" />
+
+		</LinearLayout>
+		
+    	<LinearLayout android:id="@+id/first_team_activity_layout_reserve"
+			    android:orientation="vertical"
+			    android:layout_width="wrap_content"
+			    android:layout_height="fill_parent">
+			    
+			    <TextView android:id="@+id/change_volleyballer_text_reserve"
+			        	android:layout_width="wrap_content"
+			        	android:layout_height="wrap_content"
+			        	android:text="Rezerwowi:"/>
+			    
+			    <TextView android:id="@+id/change_volleyballer_text_attacker_res"
+			        	android:layout_width="wrap_content"
+			        	android:layout_height="wrap_content"
+			        	android:text="Atakujacy:"/>
+			    <include
+			        android:id="@+id/change_volleyballer_attacker_res_row"
+			        layout="@layout/volleybaler_short_row" />
+			    
+			    <TextView android:id="@+id/change_volleyballer_text_reciver1_res"
+			        	android:layout_width="wrap_content"
+			        	android:layout_height="wrap_content"
+			        	android:text="Przyjmujacy 1:"/>
+			    <include
+			        android:id="@+id/change_volleyballer_reciver1_res_row"
+			        layout="@layout/volleybaler_short_row" />
+			    
+			    <TextView android:id="@+id/change_volleyballer_text_blocker1_res"
+			        	android:layout_width="wrap_content"
+			        	android:layout_height="wrap_content"
+			        	android:text="Srodkowy:"/>
+			    <include
+			        android:id="@+id/change_volleyballer_blocker1_res_row"
+			        layout="@layout/volleybaler_short_row" />
+			    
+			    <TextView android:id="@+id/change_volleyballer_text_setter_res"
+			        	android:layout_width="wrap_content"
+			        	android:layout_height="wrap_content"
+			        	android:text="Rozgrywajacy:"/>
+			    <include
+			        android:id="@+id/change_volleyballer_setter_res_row"
+			        layout="@layout/volleybaler_short_row" />
+			    
+			    <TextView android:id="@+id/change_volleyballer_text_reciver2_res"
+			        	android:layout_width="wrap_content"
+			        	android:layout_height="wrap_content"
+			        	android:text="Przyjmujacy 2:"/>
+			    <include
+			        android:id="@+id/change_volleyballer_reciver2_res_row"
+			        layout="@layout/volleybaler_short_row" />
+			    
+			    <Button android:id="@+id/change_volleyballer_view_res_btn"
+			        android:layout_width="140dp"
+			        android:layout_height="40dp"
+			        android:layout_marginLeft="0dp"
+			        android:text="Pokaz profil"/>
+			    			    
+			   <Button android:id="@+id/change_volleyballer_view_res_btn"
+			        android:layout_width="140dp"
+			        android:layout_height="40dp"
+			        android:layout_marginLeft="0dp"
+			        android:text="Pokaz profil - res"/>
+
+		</LinearLayout>
+		    
+    	<LinearLayout android:id="@+id/change_volleyballer_activity_layout_team"
+			    android:orientation="vertical"
+			    android:layout_width="wrap_content"
+			    android:layout_height="fill_parent">
+			   
+			   	<Button android:id="@+id/change_volleyballer_do_changes_btn"
+				        android:layout_width="wrap_content"
+				        android:layout_height="40dp"
+				        android:onClick="onClickDoChangesBtn"
+				        android:text="Wykonaj zmiany"
+				        android:layout_gravity="center_horizontal"/>
+			   					
+			   <LinearLayout 
+			        android:orientation="horizontal"
+			    	android:layout_width="wrap_content"
+			    	android:layout_height="wrap_content">
+			    	
+					<Button android:id="@+id/change_volleyballer_add_change_btn"
+				        android:layout_width="120dp"
+				        android:layout_height="40dp"
+				        android:onClick="onClickAddChangeBtn"
+				        android:text="Dodaj zmiane"/>
+				    			    
+				   	<Button android:id="@+id/change_volleyballer_reste_chenges_btn"
+				        android:layout_width="120dp"
+				        android:layout_height="40dp"
+				        android:onClick="onClickDeleteChangesBtn"
+				        android:text="Usun zmiany"/>
+			</LinearLayout>
+			
+			<LinearLayout android:id="@+id/change_volleyballer_change_list"
+			        android:orientation="vertical"
+			    	android:layout_width="match_parent"
+			    	android:layout_height="match_parent">
+			</LinearLayout>
+			
+		</LinearLayout>
+</LinearLayout>

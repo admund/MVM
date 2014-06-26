@@ -1,0 +1,16 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/message_panel_layout_root"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:keepScreenOn="true">
+              
+    <ListView 
+        android:id="@+id/message_panel_list"
+  		android:layout_width="fill_parent"
+  		android:layout_height="wrap_content"
+  		android:background="#00000000"
+  		android:cacheColorHint="#00000000">
+    </ListView>
+
+</LinearLayout>

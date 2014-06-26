@@ -1,0 +1,27 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    		android:id="@+id/vol_list_row_layout_root"
+		    android:orientation="horizontal"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:minWidth="140dp"
+		    android:minHeight="8dp"
+		    android:clickable="true"
+			android:background="@drawable/vol_row_bg" 
+			>
+			
+    	<TextView android:id="@+id/vol_list_row_text_nr"
+    	        android:maxWidth="1px"
+    	    	android:maxHeight="1px"
+    	    	android:visibility="invisible"
+    	    	android:layout_width="wrap_content"
+		    	android:layout_height="fill_parent"/>
+    	
+    	<TextView android:id="@+id/vol_list_row_text_name"
+    	    	android:singleLine="true"
+    	    	android:layout_width="110dp"
+		    	android:layout_height="fill_parent"/>
+		
+		<TextView android:id="@+id/vol_list_row_text_overall"
+    	    	android:layout_width="wrap_content"
+		    	android:layout_height="fill_parent"/>
+</LinearLayout>

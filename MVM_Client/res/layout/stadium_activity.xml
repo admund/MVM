@@ -1,0 +1,59 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    		android:id="@+id/stadium_activity_layout_root"
+		    android:orientation="horizontal"
+		    android:layout_width="fill_parent"
+		    android:layout_height="fill_parent"
+		    android:keepScreenOn="true">
+		    
+    <ImageView android:id="@+id/stadium_activity_stadium_image"
+        	android:layout_width="wrap_content"
+		    android:layout_height="fill_parent"/>
+    
+    <LinearLayout android:orientation="vertical"
+		    android:layout_width="wrap_content"
+		    android:layout_height="fill_parent">
+		    
+        <TextView android:layout_width="wrap_content"
+			      android:layout_height="wrap_content"
+			      android:text="Nazwa stadionu:"/>
+        
+        <TextView android:id="@+id/stadium_activity_stadium_name"
+			      android:layout_width="wrap_content"
+			      android:layout_height="wrap_content"/>
+        
+        <TextView android:layout_width="wrap_content"
+			      android:layout_height="wrap_content"
+			      android:text="Ilosc miejsc:"/>
+        
+        <TextView android:id="@+id/stadium_activity_nr_off_sit"
+			      android:layout_width="wrap_content"
+			      android:layout_height="wrap_content"
+			      android:text="\t30000"/>
+        
+        <TextView android:layout_width="wrap_content"
+			      android:layout_height="wrap_content"
+			      android:text="Poziom stadionu:"/>
+        
+        <TextView android:id="@+id/stadium_activity_stadium_lv"
+			      android:layout_width="wrap_content"
+			      android:layout_height="wrap_content"/>
+        
+        <TextView android:layout_width="wrap_content"
+			      android:layout_height="wrap_content"
+			      android:text="Poziom baru:"/>
+        
+        <TextView android:id="@+id/stadium_activity_snack_bar_lv"
+			      android:layout_width="wrap_content"
+			      android:layout_height="wrap_content"/>
+        
+        <TextView android:layout_width="wrap_content"
+			      android:layout_height="wrap_content"
+			      android:text="Poziom sklepu:"/>
+        
+        <TextView android:id="@+id/stadium_activity_shop_lv"
+			      android:layout_width="wrap_content"
+			      android:layout_height="wrap_content"/>
+        
+    </LinearLayout>
+		    
+ </LinearLayout>
